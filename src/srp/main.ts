@@ -1,3 +1,13 @@
+/*
+ *
+ *  S - Simple Responsability Principle:
+ *  Define que um classe deve ter apenas uma responsabilidade
+ *  maneiras de identificar responsabilidades podem ser de acordo com a função, como exemplos a
+ *  função de envio de mensagens, persistencia no banco de dados, as entidades e a quem cada classe
+ *  está subordinada (setor), por exemplo ao RH e Marketing
+ *
+ */
+
 import { Messaging } from './services/messaging';
 import { Order } from './entities/order';
 import { Persistency } from './services/persistency';
